@@ -5,13 +5,11 @@ Public release notes for [Subti](https://subti.app). Same words as
 mirrors them after each release is published.
 
 Each entry lists the version, the build number and the SHA-256 of the DMG that subti.app serves, so
-a download can be checked against a second source. The DMG for each version is attached to its entry
-under [Releases](https://github.com/troshkinpavel/subti-releases/releases).
-
-Verify a download:
+a download can be checked against a second source. The app itself is attached to its entry under
+[Releases](https://github.com/troshkinpavel/subti-releases/releases), with a `SHA256SUMS.txt`:
 
 ```bash
-shasum -a 256 ~/Downloads/Subti-0.3.4.dmg
+shasum -a 256 -c SHA256SUMS.txt
 ```
 
 ---
