@@ -2,9 +2,13 @@
 
 If you have found a security problem in Subti, please tell me privately first.
 
-**Email [support@subti.app](mailto:support@subti.app)** with `security` in the subject line. Please
-do not open a public issue, post the details anywhere public, or describe the problem in a pull
-request until it has been fixed and a build carrying the fix has shipped.
+**Do not report it through a public GitHub issue.** Email
+**[support@subti.app](mailto:support@subti.app)** with `security` in the subject line, and please
+keep the details out of anywhere public until a build carrying the fix has shipped.
+
+Leave sensitive data out of the report itself: no licence keys, no personal details, no credentials,
+and nothing belonging to anyone else. A description of the weakness is what is useful, and it is
+what keeps a report safe to act on.
 
 Not because the report is unwelcome — the opposite. Subti is installed on other people's Macs, and a
 description in the open reaches whoever wants to use it before it reaches the people who need to
