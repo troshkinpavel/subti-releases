@@ -2,7 +2,7 @@
 name: Bug report
 about: Something in Subti does not work the way it should
 title: ''
-labels: bug
+labels: ["bug"]
 assignees: ''
 ---
 

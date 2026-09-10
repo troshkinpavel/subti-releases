@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest something Subti should do
 title: ''
-labels: enhancement
+labels: ["enhancement"]
 assignees: ''
 ---
 
