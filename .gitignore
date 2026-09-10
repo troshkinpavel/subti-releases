@@ -1,0 +1,51 @@
+# This repository is a public distribution hub. The application source, the release
+# tooling and every private artifact live elsewhere, and none of them belong in a commit
+# here. Builds reach the public through GitHub Releases, never through the repository.
+
+# Application artifacts — attach these to a Release instead of committing them
+*.dmg
+*.zip
+*.pkg
+*.app/
+*.ipa
+
+# Sparkle: deltas, feeds, signing. GitHub is not the update backend.
+*.delta
+appcast*.xml
+*.pem
+dsa_priv*
+ed25519*
+
+# Release tooling and manifests, private by rule
+Scripts/
+scripts/
+release-manifest*.json
+*.entitlements
+*.mobileprovision
+*.provisionprofile
+
+# Staging, in any form
+*staging*
+*-staging.*
+
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.p12
+*.p8
+*.cer
+*.certSigningRequest
+*_token*
+*secret*
+credentials*
+
+# Source, in case a file is ever copied here by hand
+*.swift
+*.ts
+*.lua
+Package.swift
+Package.resolved
+
+# macOS
+.DS_Store
