@@ -33,7 +33,7 @@ This repository holds no application source code. It exists to distribute builds
 checksums. Reports are welcome about:
 
 - The Subti app itself.
-- subti.app and downloads.subti.app, including licence activation and the update feed.
+- subti.app, including the download and update endpoints it serves.
 - The artifacts published here — a checksum that does not match, a build that is not signed by the
   expected team, anything suggesting a download has been tampered with.
 
