@@ -14,6 +14,29 @@ shasum -a 256 -c SHA256SUMS.txt
 
 ---
 
+## 0.3.7 — build 10
+
+*21 November 2026 · requires macOS 14.0 or later*
+
+**Open History from VLC — full screen included — and export History straight from its toolbar.**
+
+### Improved
+
+- Open History's shortcut needs ⌥ or ⌃ now that it works in every app — a ⌘-only one would take
+  ⌘C or ⌘W away from all of them. A ⌘-only shortcut set in 0.3.6 goes back to ⌥H.
+
+### Fixed
+
+- **The History shortcut works while you watch.** ⌥H — or your own shortcut — opens History with VLC
+  in front, full screen included, without opening Subti's menu first. Before, it only worked while
+  that menu was open.
+- The shortcut is the same physical key under any keyboard layout, Russian and Greek included.
+- History opens over a full-screen film, on the Space you are watching, and on the History tab.
+- **History's Export menu was missing in 0.3.6.** It is now on History's toolbar: Export Selected…,
+  Export All for This Movie… and Export List…, and Export… appears when you tick rows in Select mode.
+  Nothing needs adding to the Dictionary first.
+
+**SHA-256** · `Subti-0.3.7.dmg` `22451b7eee2d1485dd7a36bcda90b212311fca7e9c5cc5c944b067a8479d2dee`
 ## 0.3.6 — build 9
 
 *17 November 2026 · requires macOS 14.0 or later*
